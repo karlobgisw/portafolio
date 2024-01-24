@@ -19,7 +19,7 @@
     height: 80%;
     background-color: white;
     border-radius: 50%;
-    background-image: url(/images/karlo.jpeg);
+    background-image: url(images/karlo.jpeg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -220,7 +220,7 @@ fieldset .tech svg{
     border: 4px solid #E4CFB4;
 }
 div.proyecto:nth-of-type(1) {
-    background-image: url(/images/Sistema_Estadisticas.jpeg);
+    background-image: url(images/Sistema_Estadisticas.jpeg);
     background-size: cover;
 }
 .superpuesto{
