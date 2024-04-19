@@ -55,7 +55,7 @@ export function Hero(){
                     <motion.h1 variants={animation} className='text-[88px] max-md:text-[58px] max-sm:text-[40px] font-bold text-white'>Web Developer</motion.h1>
                     <motion.div variants={animation} className='z-10'>
                         <Button seccion="#projects" title="Projects"/>
-                        <Button seccion="../assets/KARLO_CV.pdf" title="Get Resume"/>
+                        <Button seccion="https://cdn.discordapp.com/attachments/721077787842052136/1231007495087198289/KARLO_CV.pdf?ex=66356411&is=6622ef11&hm=c3ea0b6e8a86751b532f8d5a1e2c1b5e38f5cacccb1bf7186732faa66f7d403c&" title="Get Resume"/>
                     </motion.div>
                     <div className=' max-xl:flex max-xl:items-center max-xl:justify-center'>
                         <motion.img  variants={animation} className=' w-[50px]' src={scroll} alt="Scroll Down" animate="scrollButton"/>
