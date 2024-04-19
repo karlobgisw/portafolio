@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { SkillCard } from "./skillCard";
 import { SkillsInfo } from "./skillsInfo";
 
+
 export function Skills() {
     const SKILLS = [
         {
             title: "Frontend",
-            icon: "../src/assets/images/Front.png",
+            icon: "../assets/Front.png",
             skills: [
                 { skill: "HTML5", percentage: "80%" },
                 { skill: "TailWindCSS", percentage: "60%" },
@@ -16,7 +17,7 @@ export function Skills() {
         },
         {
             title: "Backend",
-            icon: "../src/assets/images/Back.png",
+            icon: "../assets/Back.png",
             skills: [
                 { skill: "Node.js", percentage: "70%" },
                 { skill: "Express.js", percentage: "60%" },
@@ -25,7 +26,7 @@ export function Skills() {
         },
         {
             title: "Tools",
-            icon: "../src/assets/images/tools.png",
+            icon: "../assets/tools.png",
             skills: [
                 { skill: "Git & GitHub", percentage: "75%" },
                 { skill: "Visual Studio Code", percentage: "85%" },
@@ -34,7 +35,7 @@ export function Skills() {
         },
         {
             title: "Soft Skills",
-            icon: "../src/assets/images/soft.png",
+            icon: "../assets/soft.png",
             skills: [
                 { skill: "Problem Solving", percentage: "80%" },
                 { skill: "Collaboration", percentage: "90%" },

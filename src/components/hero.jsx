@@ -63,7 +63,7 @@ export function Hero(){
                 </motion.div>
             </motion.div>
             <div className='image-container h-full absolute top-0 right-0 max-xl:hidden'>
-                <img src="../src/assets/images/karloHeroSinFondo.png" alt="karlo" />
+                <img src="../assets/karloHeroSinFondo.png" alt="karlo" />
             </div>
             <motion.div variants={TextAnimation} initial="initial" animate="animate" className="absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09] w-1/2 font-bold z-0 cursor-default">
                 Front and Back Development
