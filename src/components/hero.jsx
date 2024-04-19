@@ -55,7 +55,7 @@ export function Hero(){
                     <motion.h1 variants={animation} className='text-[88px] max-md:text-[58px] max-sm:text-[40px] font-bold text-white'>Web Developer</motion.h1>
                     <motion.div variants={animation} className='z-10'>
                         <Button seccion="#projects" title="Projects"/>
-                        <Button seccion="../src/assets/images/KARLO_CV.pdf" title="Get Resume"/>
+                        <Button seccion="./src/assets/images/KARLO_CV.pdf" title="Get Resume"/>
                     </motion.div>
                     <div className=' max-xl:flex max-xl:items-center max-xl:justify-center'>
                         <motion.img  variants={animation} className=' w-[50px]' src={scroll} alt="Scroll Down" animate="scrollButton"/>
