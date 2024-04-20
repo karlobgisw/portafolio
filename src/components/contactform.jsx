@@ -5,6 +5,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 export function ContactForm(){
+
+
+
+
     const notifySucces = () => {
         toast.success('👍 Email sent successfully!', {
             position: "bottom-right",
@@ -41,12 +45,17 @@ export function ContactForm(){
         () => {
             console.log('SUCCESS!');
             notifySucces();
+            disableButton();
         },
         (error) => {
             console.log('FAILED...', error.text);
             notifyError();
         },
         );
+    };
+
+    const disableButton = () => {
+        document.getElementById('submitButton').disabled = true;
     };
 
     return(
@@ -57,7 +66,7 @@ export function ContactForm(){
                 </div>
                 <input className=" flex-1 w-full text-[0.9rem] text-white bg-[#130f2a] rounded-[0.6rem] border border-solid border-[#6751b9] p-4 max-sm:p-[0.7rem] max-sm:rounded-[0.3rem]" type="email" name="from_email" placeholder="Email" required/>
                 <textarea className=" flex-1 w-full text-[0.9rem] text-white bg-[#130f2a] rounded-[0.6rem] border border-solid border-[#6751b9] p-4 max-sm:p-[0.7rem] max-sm:rounded-[0.3rem]" name="message" placeholder="Message" rows={3} required/>
-                <input className=" text-[1rem] font-medium text-white border border-solid border-[#a892fe] rounded-[0.6rem] bg-[linear-gradient(90deg,_#a892fe_0%,_#8064e8_100%)] p-[0.7rem] transition-all duration-300 ease-linear cursor-pointer max-sm:text-[0.9rem] max-sm:p-[0.7rem] max-sm:rounded-[0.3rem]" type="submit" value="SEND"/>
+                <input id='submitButton' className=" text-[1rem] font-medium text-white border border-solid border-[#a892fe] rounded-[0.6rem] bg-[linear-gradient(90deg,_#a892fe_0%,_#8064e8_100%)] p-[0.7rem] transition-all duration-300 ease-linear cursor-pointer max-sm:text-[0.9rem] max-sm:p-[0.7rem] max-sm:rounded-[0.3rem]" type="submit" value="SEND"/>
             </form>
             <ToastContainer></ToastContainer>
         </div>
