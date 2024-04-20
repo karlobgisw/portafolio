@@ -47,7 +47,7 @@ export function WorkExp(){
             responsabilities: [
                 "Implementation of responsive and attractive designs using HTML, CSS and JavaScript, ensuring an intuitive user experience.",
                 "Development and maintenance of server-side logic using technologies such as PHP and the framework Laravel.",
-                "Database integration to efficiently manage system information.",
+                "Integration of databases to efficiently manage system information and streamline data handling to optimize project development times within the company.",
             ]
         }
     ]
