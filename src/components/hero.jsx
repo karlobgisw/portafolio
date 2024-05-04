@@ -1,6 +1,7 @@
 import scroll from '../assets/scroll.png';
 import { Button } from './buttonHero';
 import {motion} from 'framer-motion'
+import imageHero from "../assets/KarloHeroSinFondo.png"
 const animation = {
     initial:{
         x: -500,
@@ -63,7 +64,7 @@ export function Hero(){
                 </motion.div>
             </motion.div>
             <div className='image-container h-full absolute top-0 right-0 max-xl:hidden'>
-                <img src="https://cdn.discordapp.com/attachments/721077787842052136/1230998371989455009/karloHeroSinFondo.png?ex=66355b92&is=6622e692&hm=95b07364660272096e95e63a3150379c7bc12acefe2586fff51320306d4e7c2e&" alt="karlo" />
+                <img src={imageHero} alt="karlo" />
             </div>
             <motion.div variants={TextAnimation} initial="initial" animate="animate" className="absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09] w-1/2 font-bold z-0 cursor-default">
                 Front and Back Development
