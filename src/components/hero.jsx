@@ -2,7 +2,7 @@ import scroll from '../assets/scroll.png';
 import { Button } from './buttonHero';
 import {motion} from 'framer-motion'
 import imageHero from "../assets/karloHeroSinFondo.png"
-import CV from "./KARLO_CV.PDF"
+import CV from "./KARLO_CV.pdf"
 const animation = {
     initial:{
         x: -500,

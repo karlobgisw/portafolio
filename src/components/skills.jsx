@@ -3,15 +3,15 @@ import { SkillCard } from "./skillCard";
 import { SkillsInfo } from "./skillsInfo";
 import front from "../assets/Front.png"
 import back from "../assets/Back.png"
-import tools from "../assets/Tools.png"
-import soft from "../assets/Soft.png"
+import tools from "../assets/tools.png"
+import soft from "../assets/soft.png"
 
 
 export function Skills() {
     const SKILLS = [
         {
             title: "Frontend",
-            icon: {front},
+            icon: front,
             skills: [
                 { skill: "HTML5", percentage: "80%" },
                 { skill: "TailWindCSS", percentage: "60%" },
@@ -21,7 +21,7 @@ export function Skills() {
         },
         {
             title: "Backend",
-            icon: {back},
+            icon: back,
             skills: [
                 { skill: "Node.js", percentage: "70%" },
                 { skill: "Express.js", percentage: "60%" },
@@ -30,7 +30,7 @@ export function Skills() {
         },
         {
             title: "Tools",
-            icon: {tools},
+            icon: tools,
             skills: [
                 { skill: "Git & GitHub", percentage: "75%" },
                 { skill: "Visual Studio Code", percentage: "85%" },
@@ -39,7 +39,7 @@ export function Skills() {
         },
         {
             title: "Soft Skills",
-            icon: {tools},
+            icon: soft,
             skills: [
                 { skill: "Problem Solving", percentage: "80%" },
                 { skill: "Collaboration", percentage: "90%" },
