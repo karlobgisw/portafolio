@@ -1,7 +1,7 @@
 import scroll from '../assets/scroll.png';
 import { Button } from './buttonHero';
 import {motion} from 'framer-motion'
-import imageHero from "../assets/KarloHeroSinFondo.png"
+import imageHero from "../assets/karloHeroSinFondo.png"
 const animation = {
     initial:{
         x: -500,
