@@ -14,7 +14,7 @@ export function Proyects(){
                 <br />
                     <h5 className="mb-14 text-white text-[50px] tracking-[10px] font-bold max-md:text-[1.3rem] max-md:mb-[2rem]">MY <span className="text-purple-700">PROJECTS</span></h5>
                     <div className="portolfio-container grid grid-cols-[repeat(3,_1fr)] gap-10 max-md:grid-cols-[repeat(2,_1fr)] max-sm:grid-cols-[repeat(1,_1fr)]">
-                        <PortfolioItem title="TyperTraining" imgUrl={TyperTraining}></PortfolioItem>
+                        <PortfolioItem title="TyperTraining" imgUrl={TyperTraining} gitUrl="https://github.com/karlobgisw/TyperTraining.git" demoUrl="https://typertraining-production-259c.up.railway.app/"></PortfolioItem>
                         <PortfolioItemWorking></PortfolioItemWorking>
                         <PortfolioItemWorking></PortfolioItemWorking>
                     </div>
