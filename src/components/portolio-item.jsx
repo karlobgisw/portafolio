@@ -1,7 +1,7 @@
 export function PortfolioItem({title, imgUrl, gitUrl, demoUrl}){
     return(
     <article className="portfolio-item bg-[#130f2a] p-5 rounded-[2rem] border-2 border-solid border-[#6852ba] transition-all duration-500 ease-in-out">
-        <div className="portfolio-item-image rounded-3xl overflow-hidden ">
+        <div className="portfolio-item-image rounded-3xl overflow-hidden h-[50%]">
             <img src={imgUrl} alt="TyperTraining"/>
         </div>
         <h3 className="mt-[1.2rem] mx-[0] mb-8 text-[#6751b9] font-extrabold text-[1.3rem]">{title}</h3>
